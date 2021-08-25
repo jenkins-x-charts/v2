@@ -11,18 +11,18 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```bash
-helm repo add jxgh https://jenkins-x-charts.github.io/repo/
+helm repo add jx https://jenkins-x-charts.github.io/v2/
 ```
 
 you can then do
 
 ```bash
-helm search repo jx-preview
+helm fetch jx/jenkins-x-platform
 ```
 
 ## Repository
 
-You can [browse the chart repository](https://jenkins-x-charts.github.io/repo/)
+You can [browse the chart repository](https://jenkins-x-charts.github.io/v2/)
 
-Or view the YAML at: [index.yaml](https://jenkins-x-charts.github.io/repo/index.yaml)
+Or view the YAML at: [index.yaml](https://jenkins-x-charts.github.io/v2/index.yaml)
 
